@@ -4,6 +4,13 @@ public class Account {
 
     private Person owner;
     private Integer balance;
+    
+
+    public Account(Person person,Integer balance){
+    	this.owner = person;
+    	this.balance = balance;
+    }
+
 
     public Person getOwner() {
         return owner;
